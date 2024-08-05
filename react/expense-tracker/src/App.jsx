@@ -63,6 +63,9 @@ const App = () => {
         >
           {/* <div>{expense.date}</div> */}
           <ExpenseDate date={expense.date} />
+
+
+          {/* create a new component for this section i.e title and description */}
           <div className=" w-[75%]">
             <div className=" text-3xl font-bold">{expense.title}</div>
             <div>{expense.description}</div>
