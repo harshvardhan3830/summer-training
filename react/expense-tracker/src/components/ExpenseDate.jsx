@@ -2,10 +2,12 @@ import React from "react";
 
 const ExpenseDate = ({ date }) => {
   return (
-    <div className=" h-[5rem] w-[5rem] border rounded-md flex flex-col justify-center items-center border-slate-600">
-      <p>{new Date(date).getFullYear()}</p>
-      <p>{new Date(date).getDay()}</p>
-      <p>{new Date(date).toLocaleString("default", { month: "long" })}</p>
+    <div className=" h-[5rem] w-[5rem] rounded-md flex flex-col justify-center items-center bg-[#606676] py-4">
+      <p className=" font-bold">{new Date(date).getFullYear()}</p>
+      <p className=" text-2xl font-bold">{new Date(date).getDay()}</p>
+      <p className=" font-semibold">
+        {new Date(date).toLocaleString("default", { month: "long" })}
+      </p>
     </div>
   );
 };
