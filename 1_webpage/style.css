@@ -14,7 +14,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6); /*the black layer over background */
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6); /*the black layer over background */
 }
 
 .con1left {
@@ -125,4 +125,45 @@
 .cardimage {
 	width: 100%;
 	height: 100%;
+}
+
+.textWhite {
+	color: #fff;
+}
+
+.container4 {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.grid {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1.2rem;
+}
+.servicescard {
+	width: 30%;
+	display: flex;
+	gap: 0.5rem;
+}
+.icon {
+	height: 1.2rem;
+	width: 1.2rem;
+	border: 1px solid #f4cb0a;
+	padding: 1px 5px;
+	border-radius: 5px;
+}
+
+.heading2 {
+	font-size: 0.7rem;
+}
+
+.desc3 {
+	font-size: 0.55rem;
 }
